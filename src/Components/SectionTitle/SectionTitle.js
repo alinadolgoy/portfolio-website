@@ -5,7 +5,7 @@ class SectionTitle extends Component {
     render () {
         return (
             <div className="sectionTitleMain">
-            <h1> {this.props.sectionName} </h1>
+            <p> {this.props.sectionName} </p>
             
             </div>
         );

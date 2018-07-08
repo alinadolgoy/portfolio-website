@@ -3,6 +3,7 @@ import './Portfolio.css';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import OptionsMenu from '../../Components/OptionsMenu/OptionsMenu';
 import WorkCard from '../../Components/WorkCard/WorkCard';
+import Scroll from '../../Components/Scroll/Scroll';
 
 class Portfolio extends Component {
     render() {
@@ -17,12 +18,17 @@ class Portfolio extends Component {
                        
                     </div>
                 </div> {/* comment */}
-
+                <Scroll>
                 <div className='workCards'>
                 <WorkCard  />
                 <WorkCard />
+                <WorkCard />
                 <WorkCard />          
+                <WorkCard />          
+                <WorkCard />          
+          
                 </div> 
+                </Scroll>
             </div> 
         </div> // closes PortfolioMain
         );

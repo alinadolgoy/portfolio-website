@@ -12,7 +12,7 @@ render () {
                     <div className='quote marg-bot'> 
                          "I am still learning"
                     </div>
-                    <div className='quote '>
+                    <div className='quote'>
                          - Michaelangelo at age 87
                     </div>
                 </div>
