@@ -2,7 +2,6 @@ import React from 'react';
 import './Skills.css';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import logo from './react.svg'
-import logoAlina from './sladus.svg'
 
 const Skills = () => {
     const skillsListArray= [
@@ -33,7 +32,7 @@ const Skills = () => {
             <div className='containerSkills'>
             <SectionTitle sectionName='Skills' />
                 <div className='skillList'>
-            <img src = { logoAlina } />
+            <img src = { logo } />
                 </div>
             </div>
         </div>

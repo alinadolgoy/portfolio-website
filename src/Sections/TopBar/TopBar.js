@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './TopBar.css';
 import OptionsMenu from '../../Components/OptionsMenu/OptionsMenu';
-import logoAlina from './logoAlina.svg';
+import mainLogo from './alinadolgoy.svg';
 
 const testFunction = () => {console.log('it worked');};
 
@@ -11,7 +11,7 @@ class TopBar extends Component {
          <div className='topNavMainContainer'>       
             <div className='TopNavMain'>   
                 <div className='logo'>
-                    <img src= { logoAlina } alt="logo" height="20px" />
+                    <img src= { mainLogo } alt="logo" height="20px" />
                 </div>
                 <div className='nav'>
                 <OptionsMenu items={[
