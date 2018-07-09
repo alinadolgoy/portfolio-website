@@ -6,7 +6,6 @@ class SectionTitle extends Component {
         return (
             <div className="sectionTitleMain">
             <p> {this.props.sectionName} </p>
-            
             </div>
         );
     }
