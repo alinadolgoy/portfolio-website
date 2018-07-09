@@ -5,7 +5,11 @@ class WorkCard extends Component {
     render () {
         return (
             <div className='card'>
-            card
+                <a >
+                 <div className='internalCard'>
+                 
+                 </div>
+                </a>
             </div>
         );
     }
