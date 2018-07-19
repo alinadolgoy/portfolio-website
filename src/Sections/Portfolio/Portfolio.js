@@ -9,7 +9,7 @@ import robot from '../../robot.png';
 class Portfolio extends Component {
     render() {
         return ( 
-        <div className='PortfolioMain'>
+        <div className='PortfolioMain' id='portfolio'>
             <div className='portfolioContainer'>
             <div className='portfolioTop'>
                     <div className='sectionTitle'>

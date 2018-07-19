@@ -3,7 +3,6 @@ import './TopBar.css';
 import OptionsMenu from '../../Components/OptionsMenu/OptionsMenu';
 import mainLogo from './alinadolgoy.svg';
 
-const testFunction = () => {console.log('it worked');};
 
 class TopBar extends Component {
     render () {
@@ -15,13 +14,14 @@ class TopBar extends Component {
                 </div>
                 <div className='nav'>
                 <OptionsMenu items={[
-                    {title:'home', clickHandler: testFunction},
-                    {title: 'portfolio', clickHandler: testFunction},
-                    {title: 'skills', clickHandler: testFunction},
-                    {title: 'about', clickHandler: testFunction},
-                    {title: 'contact', clickHandler: testFunction}
+                    {title:'home', targetId: '#home'},
+                    {title: 'portfolio', targetId: '#portfolio'},
+                    {title: 'skills', targetId: '#skills'},
+                    {title: 'about', targetId: '#about'},
+                    {title: 'contact', targetId: '#contact'}
                 
-                ]} />
+                ]} 
+                    />
                 </div>
             </div>   
         </div> 
