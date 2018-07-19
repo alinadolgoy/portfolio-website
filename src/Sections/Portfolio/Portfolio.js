@@ -4,6 +4,7 @@ import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import OptionsMenu from '../../Components/OptionsMenu/OptionsMenu';
 import WorkCard from '../../Components/WorkCard/WorkCard';
 import Scroll from '../../Components/Scroll/Scroll';
+import robot from '../../robot.png';
 
 class Portfolio extends Component {
     render() {
@@ -20,7 +21,7 @@ class Portfolio extends Component {
                 </div> {/* comment */}
                 <Scroll>
                 <div className='workCards'>
-                <WorkCard  />
+                <WorkCard  url="https://alinadolgoy.github.io/robofriends/"  cardImage={robot} />
                 <WorkCard />
                 <WorkCard />
                 <WorkCard />          

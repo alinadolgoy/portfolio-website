@@ -4,13 +4,13 @@
     background-color: #424d54;
     width: 100%;
     color: white;    
+    padding-top: 20px;
 }
 
 
 .containerSkills {
     margin-left: 200px;
     margin-right: 200px;
-    border: 2px solid green;  
     height: 100%;
 }
 

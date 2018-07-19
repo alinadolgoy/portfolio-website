@@ -6,7 +6,7 @@ const FindMe = () => {
     return (
         <div className='mainFind'>
             <div className='containerFind'>
-            <SectionTitle  sectionName='how to contact me'/>
+            <SectionTitle  sectionName='contact me'/>
             </div>
         </div>
     )
