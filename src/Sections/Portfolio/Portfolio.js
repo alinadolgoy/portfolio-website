@@ -5,6 +5,7 @@ import OptionsMenu from '../../Components/OptionsMenu/OptionsMenu';
 import WorkCard from '../../Components/WorkCard/WorkCard';
 import Scroll from '../../Components/Scroll/Scroll';
 import robot from '../../robot.png';
+import placeHolderImage from '../../placeHolder.jpg';
 
 class Portfolio extends Component {
     render() {
@@ -22,11 +23,11 @@ class Portfolio extends Component {
                 <Scroll>
                 <div className='workCards'>
                 <WorkCard  url="https://alinadolgoy.github.io/robofriends/"  cardImage={robot} />
+                <WorkCard cardImage={placeHolderImage} />
                 <WorkCard />
-                <WorkCard />
-                <WorkCard />          
-                <WorkCard />          
-                <WorkCard />          
+                <WorkCard cardImage={placeHolderImage} />          
+                <WorkCard cardImage={placeHolderImage} />          
+                <WorkCard cardImage={placeHolderImage} />          
           
                 </div> 
                 </Scroll>
