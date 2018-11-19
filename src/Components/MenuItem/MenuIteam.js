@@ -3,14 +3,15 @@ import './MenuItem.css';
 
 
 
-class MenuItem extends Component {
-    render () {
+const MenuItem = (props) => {
+    
         return (
-            <div className='item'>
-                {this.props.title}
+            <div className='item' onClick={props.clickHandler}>
+               <a href={props.targetId}> {props.title} </a>
+                
             </div> 
         );
-    }
+    
 }
 
 export default MenuItem;

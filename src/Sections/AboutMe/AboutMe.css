@@ -5,11 +5,11 @@
     background-color: #62cffd;
     width: 100%;
     color: white;
+    padding-top: 20px;
 }
 
 .container {
     margin-left: 200px;
     margin-right: 200px;
-    border: 2px solid green;  
     height: 100%;
 }

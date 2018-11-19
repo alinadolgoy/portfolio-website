@@ -4,11 +4,13 @@ import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import OptionsMenu from '../../Components/OptionsMenu/OptionsMenu';
 import WorkCard from '../../Components/WorkCard/WorkCard';
 import Scroll from '../../Components/Scroll/Scroll';
+import robot from '../../robot.png';
+import placeHolderImage from '../../placeHolder.jpg';
 
 class Portfolio extends Component {
     render() {
         return ( 
-        <div className='PortfolioMain'>
+        <div className='PortfolioMain' id='portfolio'>
             <div className='portfolioContainer'>
             <div className='portfolioTop'>
                     <div className='sectionTitle'>
@@ -20,12 +22,12 @@ class Portfolio extends Component {
                 </div> {/* comment */}
                 <Scroll>
                 <div className='workCards'>
-                <WorkCard  />
+                <WorkCard  url="https://alinadolgoy.github.io/robofriends/"  cardImage={robot} />
+                <WorkCard cardImage={placeHolderImage} />
                 <WorkCard />
-                <WorkCard />
-                <WorkCard />          
-                <WorkCard />          
-                <WorkCard />          
+                <WorkCard cardImage={placeHolderImage} />          
+                <WorkCard cardImage={placeHolderImage} />          
+                <WorkCard cardImage={placeHolderImage} />          
           
                 </div> 
                 </Scroll>

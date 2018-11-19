@@ -4,9 +4,9 @@ import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 
 const FindMe = () => {
     return (
-        <div className='mainFind'>
+        <div className='mainFind' id='contact'>
             <div className='containerFind'>
-            <SectionTitle  sectionName='how to contact me'/>
+            <SectionTitle  sectionName='contact'/>
             </div>
         </div>
     )
