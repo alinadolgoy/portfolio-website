@@ -22,3 +22,28 @@ div > img {
     margin-right: 200px;
     height: 100%;
 }
+
+
+.white-circle {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 15px;
+
+}
+
+.white-circle-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.logos {
+    
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       
+}
