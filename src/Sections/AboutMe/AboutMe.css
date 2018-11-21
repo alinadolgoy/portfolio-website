@@ -11,5 +11,13 @@
 .container {
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 75px;
     height: 100%;
+}
+
+.text-container {
+    font-size: 115%;
+    margin-left: 75px;
+    margin-right: 75px;
+    
 }
