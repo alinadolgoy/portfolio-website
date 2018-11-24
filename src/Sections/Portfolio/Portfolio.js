@@ -4,6 +4,8 @@ import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import WorkCard from '../../Components/WorkCard/WorkCard';
 import robot from '../../robot.png';
 import placeHolderImage from '../../placeHolder.jpg';
+import shapes from '../../shapes.jpg';
+import generator from '../../generator.jpg'
 
 class Portfolio extends Component {
     render() {
@@ -20,8 +22,8 @@ class Portfolio extends Component {
                 </div> {/* comment */}
                 <div className='workCards'>
                 <WorkCard  url="https://alinadolgoy.github.io/robofriends/"  cardImage={robot} />
-                <WorkCard cardImage={placeHolderImage} />
-                <WorkCard />
+                <WorkCard  url="https://alinadolgoy.github.io/background-generator/"  cardImage={generator} />
+                <WorkCard url="https://alinadolgoy.github.io/shapeGame/" cardImage={shapes} />
                 <WorkCard cardImage={placeHolderImage} />          
                 <WorkCard cardImage={placeHolderImage} />          
                 <WorkCard cardImage={placeHolderImage} />          
