@@ -10,9 +10,9 @@ const Footer = () => {
             <OptionsMenu items={[
                 {title:'home', targetId: '#home'},
                 {title: 'portfolio', targetId: '#portfolio'},
-                    {title: 'skills', targetId: '#skills'},
-                    {title: 'about', targetId: '#about'},
-                    {title: 'contact', targetId: '#contact'}
+                {title: 'skills', targetId: '#skills'},
+                {title: 'about', targetId: '#about'},
+                {title: 'contact', targetId: '#contact'}
             ]} 
             />
             </div>
