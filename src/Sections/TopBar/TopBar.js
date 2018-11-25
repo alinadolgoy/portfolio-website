@@ -4,8 +4,7 @@ import OptionsMenu from '../../Components/OptionsMenu/OptionsMenu';
 import mainLogo from './alinadolgoy.svg';
 
 
-class TopBar extends Component {
-    render () {
+const TopBar = (props) => {
         return (
          <div className='topNavMainContainer'>       
             <div className='TopNavMain'>   
@@ -26,7 +25,6 @@ class TopBar extends Component {
             </div>   
         </div> 
         );
-    }
 }
 
 export default TopBar;
