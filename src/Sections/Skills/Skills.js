@@ -1,39 +1,25 @@
 import React from 'react';
 import './Skills.css';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
-import logo from './react.svg'
+import react from './react.svg';
+import html from './html5.svg';
+import css from './css3.svg';
+import javascript from './javascript.svg';
+import github from './github.svg';
 
 const Skills = () => {
-    const skillsListArray= [
-        {
-        nameOfSkill: "HTML5",
-        icon: '{logo}'   
-        },
-        {
-        nameOfSkill: "CSS3",
-        icon: ''   
-        },
-        {
-        nameOfSkill: "JavaScript",
-        icon: ''  
-        },
-        {
-        nameOfSkill: "React",
-        icon: ''       
-        },
-        {
-        nameOfSkill: "git",
-        icon: ''       
-        }
-
-    ];
+    
     return (
         <div className='mainSkills' id='skills'>
             <div className='containerSkills'>
             <SectionTitle sectionName='Skills' />
                 <div className='skillList'>
-            <img src = { logo } />
-                </div>
+            <div class="white-circle-skill"> <img src={ html } class='skills-img'></img> </div>
+            <div class="white-circle-skill"> <img src={ css } class='skills-img'></img> </div>
+            <div class="white-circle-skill"> <img src={ javascript } class='skills-img'></img> </div>
+            <div class="white-circle-skill"> <img src={ react } class='skills-img'></img> </div>
+            <div class="white-circle-skill"> <img src={ github } class='skills-img'></img> </div>
+            </div>
             </div>
         </div>
     )
