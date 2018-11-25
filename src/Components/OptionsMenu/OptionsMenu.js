@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './OptionsMenu.css';
 import MenuItem from '../MenuItem/MenuIteam';
 

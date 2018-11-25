@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Portfolio.css';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import WorkCard from '../../Components/WorkCard/WorkCard';
