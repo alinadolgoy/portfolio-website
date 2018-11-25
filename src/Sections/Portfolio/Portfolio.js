@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Portfolio.css';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import WorkCard from '../../Components/WorkCard/WorkCard';
@@ -7,8 +7,7 @@ import placeHolderImage from '../../placeHolder.jpg';
 import shapes from '../../shapes.jpg';
 import generator from '../../generator.jpg'
 
-class Portfolio extends Component {
-    render() {
+const Portfolio = (props) => {
         return ( 
         <div className='PortfolioMain' id='portfolio'>
             <div className='portfolioContainer'>
@@ -31,7 +30,6 @@ class Portfolio extends Component {
             </div> 
         </div> // closes PortfolioMain
         );
-    }
 }
 
 export default Portfolio;

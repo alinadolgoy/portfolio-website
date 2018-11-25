@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './MainPicture.css';
 import TopBar from '../TopBar/TopBar';
 
 
-class MainPicture extends Component {
-render () {
+const MainPicture = (props) => {
     return (
         <div className="mainPic">
             <TopBar />
@@ -18,7 +17,6 @@ render () {
                 </div>
          </div>
     );
-  }
 }
 
 export default MainPicture;
